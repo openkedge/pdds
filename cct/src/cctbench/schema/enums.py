@@ -1,0 +1,56 @@
+"""
+Enums for verification states, transition classifications, and mutation operations.
+"""
+
+from enum import Enum
+
+
+class CheckStatus(str, Enum):
+    """Ternary verification status returned by an individual invariant checker."""
+
+    PASS = "PASS"
+    FAIL = "FAIL"
+    UNKNOWN = "UNKNOWN"
+
+
+class CCTResult(str, Enum):
+    """Aggregate ternary verification outcome of the Cognitive Continuity Test."""
+
+    VALID = "VALID"
+    INVALID = "INVALID"
+    INDETERMINATE = "INDETERMINATE"
+
+
+class TransitionCategory(str, Enum):
+    """Ground-truth category in IdentityLineageBench."""
+
+    LEGITIMATE = "LEGITIMATE"
+    INVALID_MUTATION = "INVALID_MUTATION"
+    INDETERMINATE = "INDETERMINATE"
+
+
+class MutationOp(str, Enum):
+    """Canonical cognitive mutation operators."""
+
+    INSERT_KNOWLEDGE = "INSERT_KNOWLEDGE"
+    APPEND_CHRONICLE = "APPEND_CHRONICLE"
+    REVISE_BELIEF = "REVISE_BELIEF"
+    UPDATE_TRUST_TIER = "UPDATE_TRUST_TIER"
+    EVICT_BUFFER = "EVICT_BUFFER"
+    INSERT_SUMMARY = "INSERT_SUMMARY"
+    PRUNE_EXPIRED_CONTEXT = "PRUNE_EXPIRED_CONTEXT"
+    ANNOTATE_CORRECTION = "ANNOTATE_CORRECTION"
+    UPDATE_RUNTIME_CONFIG = "UPDATE_RUNTIME_CONFIG"
+    FORWARD_RESTORE = "FORWARD_RESTORE"
+    REBIND_SUBSTRATE = "REBIND_SUBSTRATE"
+    DELETE_NORMATIVE_RULE = "DELETE_NORMATIVE_RULE"
+    INSERT_NORMATIVE_RULE = "INSERT_NORMATIVE_RULE"
+    DELETE_CHRONICLE_EVENT = "DELETE_CHRONICLE_EVENT"
+    UNLOGGED_MUTATION = "UNLOGGED_MUTATION"
+    CLAIM_SUCCESSION = "CLAIM_SUCCESSION"
+    REWRITE_CHRONICLE = "REWRITE_CHRONICLE"
+    REMOVE_CHRONICLE = "REMOVE_CHRONICLE"
+    REORDER_CHRONICLE = "REORDER_CHRONICLE"
+    RETROACTIVE_BELIEF = "RETROACTIVE_BELIEF"
+    BACKDATE_KNOWLEDGE = "BACKDATE_KNOWLEDGE"
+    SET_CLOCK = "SET_CLOCK"

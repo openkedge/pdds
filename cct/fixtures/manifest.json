@@ -1,0 +1,140 @@
+{
+  "format_version": "2.0.0",
+  "count": 1728,
+  "sha256": "ff5a3d6262eb88e8e4b5e0c9d4d9e889cd812d317708ed01abf2dbadf8374268",
+  "generator": "deterministic seeded synthetic lifecycles",
+  "families": {
+    "L1": "Factual Learning",
+    "L2": "Episodic Memory Formation",
+    "L3": "Evidence-Based Belief Revision",
+    "L4": "Relational Deepening",
+    "L5": "Memory Consolidation",
+    "L6": "Policy-Permitted Forgetting",
+    "L7": "Provenance-Backed Error Correction",
+    "L8": "Software Runtime Upgrade",
+    "L9": "Authenticated Crash Recovery",
+    "L10": "Substrate Migration",
+    "I1": "Autobiographical Fabrication",
+    "I2": "Retroactive Belief Rewriting",
+    "I3": "Policy-Forbidden Normative Modification",
+    "I4": "Arbitrary Relationship Injection",
+    "I5": "Historical Suppression",
+    "I6": "Unlogged Memory Mutation",
+    "I7": "Unauthorized Succession Claim",
+    "I8": "Stale Rollback Masquerade",
+    "I9": "Forged Commit Receipt",
+    "I10": "Corrupted Provenance",
+    "D1": "Omitted Policy-Required Field",
+    "D2": "Ambiguous Canonical Head",
+    "D3": "Unreachable Citation",
+    "D4": "Conflicting Evaluator Attestations"
+  },
+  "single_fault_cases": {
+    "lineage_binding": [
+      "I9",
+      "lineage_binding",
+      "I_lin"
+    ],
+    "scope": [
+      "I9",
+      "scope",
+      "I_lin"
+    ],
+    "receipt_binding": [
+      "I9",
+      "receipt_binding",
+      "I_lin"
+    ],
+    "receipt_signature": [
+      "I9",
+      "receipt_signature",
+      "I_lin"
+    ],
+    "head_contradiction": [
+      "I8",
+      "canonical_head",
+      "I_lin"
+    ],
+    "head_missing": [
+      "D2",
+      "canonical_head",
+      "I_lin"
+    ],
+    "authority": [
+      "I7",
+      "authority",
+      "I_auth"
+    ],
+    "authority_missing": [
+      "D1",
+      "authority",
+      "I_auth"
+    ],
+    "provenance": [
+      "I10",
+      "provenance",
+      "I_prov"
+    ],
+    "provenance_missing": [
+      "D1",
+      "provenance",
+      "I_prov"
+    ],
+    "provenance_unavailable": [
+      "D3",
+      "provenance",
+      "I_prov"
+    ],
+    "state_application": [
+      "I6",
+      "state_application",
+      "state_application"
+    ],
+    "historical": [
+      "I5",
+      "I_hist",
+      "I_hist"
+    ],
+    "temporal": [
+      "I1",
+      "I_temp",
+      "I_temp"
+    ],
+    "belief": [
+      "I2",
+      "I_bel",
+      "I_bel"
+    ],
+    "relational": [
+      "I4",
+      "I_rel",
+      "I_rel"
+    ],
+    "normative": [
+      "I3",
+      "I_norm",
+      "I_norm"
+    ],
+    "attestation_conflict": [
+      "D4",
+      "attestation_I_bel",
+      "I_bel"
+    ],
+    "attestation_missing": [
+      "D1",
+      "attestation_I_bel",
+      "I_bel"
+    ],
+    "attestation_binding": [
+      "I2",
+      "attestation_I_bel",
+      "I_bel"
+    ]
+  },
+  "compound_fault_cases": [
+    "authority_and_normative",
+    "unlogged_history",
+    "provenance_and_belief",
+    "unknown_and_invalid"
+  ]
+}

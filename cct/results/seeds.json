@@ -1,0 +1,66 @@
+{
+  "master_seed": 20260904,
+  "bootstrap_seed": 20260905,
+  "identities": [
+    {
+      "identity_id": "urn:cct:20260904:development:000",
+      "split": "development",
+      "seed": 75928107753025
+    },
+    {
+      "identity_id": "urn:cct:20260904:development:001",
+      "split": "development",
+      "seed": 229008176698364
+    },
+    {
+      "identity_id": "urn:cct:20260904:development:002",
+      "split": "development",
+      "seed": 242609466499129
+    },
+    {
+      "identity_id": "urn:cct:20260904:development:003",
+      "split": "development",
+      "seed": 105086322392001
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:000",
+      "split": "test",
+      "seed": 271671987076031
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:001",
+      "split": "test",
+      "seed": 121430031998477
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:002",
+      "split": "test",
+      "seed": 187079303144817
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:003",
+      "split": "test",
+      "seed": 207246185569374
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:004",
+      "split": "test",
+      "seed": 47365463925822
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:005",
+      "split": "test",
+      "seed": 84647607370806
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:006",
+      "split": "test",
+      "seed": 127469579420963
+    },
+    {
+      "identity_id": "urn:cct:20260904:test:007",
+      "split": "test",
+      "seed": 128309257804365
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "total": 1728,
+  "by_split": {
+    "development": 576,
+    "test": 1152
+  },
+  "by_subset": {
+    "canonical": 864,
+    "single_fault": 720,
+    "compound_fault": 144
+  },
+  "rows": [
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "D1",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "D2",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "D3",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "D4",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I1",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I10",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I4",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I6",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I7",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I8",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "I9",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L1",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L10",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L2",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L3",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L4",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L5",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L6",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L7",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L8",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "canonical",
+      "family": "L9",
+      "ground_truth": "VALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "compound_fault",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "compound_fault",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "development",
+      "subset": "compound_fault",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "D1",
+      "ground_truth": "INDETERMINATE",
+      "count": 36
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "D2",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "D3",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "D4",
+      "ground_truth": "INDETERMINATE",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I1",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I10",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I4",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I6",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I7",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I8",
+      "ground_truth": "INVALID",
+      "count": 12
+    },
+    {
+      "split": "development",
+      "subset": "single_fault",
+      "family": "I9",
+      "ground_truth": "INVALID",
+      "count": 48
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "D1",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "D2",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "D3",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "D4",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I1",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I10",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I4",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I6",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I7",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I8",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "I9",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L1",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L10",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L2",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L3",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L4",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L5",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L6",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L7",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L8",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "canonical",
+      "family": "L9",
+      "ground_truth": "VALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "compound_fault",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "compound_fault",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 48
+    },
+    {
+      "split": "test",
+      "subset": "compound_fault",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "D1",
+      "ground_truth": "INDETERMINATE",
+      "count": 72
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "D2",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "D3",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "D4",
+      "ground_truth": "INDETERMINATE",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I1",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I10",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I2",
+      "ground_truth": "INVALID",
+      "count": 48
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I3",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I4",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I5",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I6",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I7",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I8",
+      "ground_truth": "INVALID",
+      "count": 24
+    },
+    {
+      "split": "test",
+      "subset": "single_fault",
+      "family": "I9",
+      "ground_truth": "INVALID",
+      "count": 96
+    }
+  ]
+}

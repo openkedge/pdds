@@ -1,0 +1,5282 @@
+[
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:000:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:001:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:002:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:003:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:004:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:005:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:006:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:4:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:5:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:lineage_binding",
+    "target_conditions": [
+      "lineage_binding"
+    ],
+    "observed_nonpass": {
+      "lineage_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:scope",
+    "target_conditions": [
+      "scope"
+    ],
+    "observed_nonpass": {
+      "scope": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:receipt_binding",
+    "target_conditions": [
+      "receipt_binding"
+    ],
+    "observed_nonpass": {
+      "receipt_binding": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:receipt_signature",
+    "target_conditions": [
+      "receipt_signature"
+    ],
+    "observed_nonpass": {
+      "receipt_signature": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:head_contradiction",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:head_missing",
+    "target_conditions": [
+      "canonical_head"
+    ],
+    "observed_nonpass": {
+      "canonical_head": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:authority",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:authority_missing",
+    "target_conditions": [
+      "authority"
+    ],
+    "observed_nonpass": {
+      "authority": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:provenance",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:provenance_missing",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:provenance_unavailable",
+    "target_conditions": [
+      "provenance"
+    ],
+    "observed_nonpass": {
+      "provenance": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:state_application",
+    "target_conditions": [
+      "state_application"
+    ],
+    "observed_nonpass": {
+      "state_application": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:historical",
+    "target_conditions": [
+      "I_hist"
+    ],
+    "observed_nonpass": {
+      "I_hist": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:temporal",
+    "target_conditions": [
+      "I_temp"
+    ],
+    "observed_nonpass": {
+      "I_temp": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:belief",
+    "target_conditions": [
+      "I_bel"
+    ],
+    "observed_nonpass": {
+      "I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:relational",
+    "target_conditions": [
+      "I_rel"
+    ],
+    "observed_nonpass": {
+      "I_rel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:normative",
+    "target_conditions": [
+      "I_norm"
+    ],
+    "observed_nonpass": {
+      "I_norm": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:attestation_conflict",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:attestation_missing",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "UNKNOWN"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  },
+  {
+    "fixture_id": "urn:cct:20260904:test:007:epoch:6:single_fault:attestation_binding",
+    "target_conditions": [
+      "attestation_I_bel"
+    ],
+    "observed_nonpass": {
+      "attestation_I_bel": "FAIL"
+    },
+    "isolated": true,
+    "verdict_matches_generator": true
+  }
+]
