@@ -1,0 +1,20 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+build/
+output/
+
+# Source is TypeScript; emitted siblings can silently shadow repaired code.
+/packages/**/*.js
+/packages/**/*.js.map
+/packages/**/*.d.ts
+/packages/**/*.d.ts.map
+/tests/**/*.js
+/tests/**/*.js.map
+/tests/**/*.d.ts
+/tests/**/*.d.ts.map
+/bin/**/*.js
+/bin/**/*.js.map
+/bin/**/*.d.ts
+/bin/**/*.d.ts.map

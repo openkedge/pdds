@@ -1,0 +1,2 @@
+Hypothesis,Comparison,Scope,N,n01,n10,RiskDifference,RD_Lower,RD_Upper,RelativeRisk,RR_Lower,RR_Upper,OddsRatio,OR_Lower,OR_Upper,Chi2,Exact_p,Adj_p,Verdict
+H3b,"CAC vs CAC-NoEFD","F4 (EFD Correlated Partition)",30,30,0,1,0.8395,1,9999,1,9999,60,3.6676,981.5662,28.0333,1.862645149230957e-9,0,SUPPORTED

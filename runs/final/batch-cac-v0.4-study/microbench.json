@@ -1,0 +1,301 @@
+{
+  "environment": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "nodeVersion": "v25.2.1",
+    "cpuCores": 8,
+    "timestamp": "2026-09-13T16:23:12.993Z"
+  },
+  "tierOverhead": [
+    {
+      "tier": "TIER_0",
+      "iterations": 20000,
+      "tauResolve": {
+        "p50": 0.0036249999993742676,
+        "p90": 0.003875000000334694,
+        "p99": 0.005250000000160071,
+        "max": 0.35658299999977316,
+        "mean": 0.0037,
+        "min": 0.0031249999992724042
+      },
+      "tauVerify": {
+        "p50": 0,
+        "p90": 0.00004199999966658652,
+        "p99": 0.00004200000148557592,
+        "max": 0.005417000000306871,
+        "mean": 0,
+        "min": 0
+      },
+      "tauMint": {
+        "p50": 0.05316600000060134,
+        "p90": 0.05587499999910506,
+        "p99": 0.06749999999919964,
+        "max": 1.1097909999998592,
+        "mean": 0.0532,
+        "min": 0.0476249999992433
+      },
+      "tauGatewayLocal": {
+        "p50": 0.051459000000249944,
+        "p90": 0.05349999999998545,
+        "p99": 0.063083000000006,
+        "max": 1.0385829999995622,
+        "mean": 0.0509,
+        "min": 0.046167000000423286
+      },
+      "tauGuardIo": {
+        "p50": 0,
+        "p90": 0.00004199999966658652,
+        "p99": 0.00004200000148557592,
+        "max": 0.0010830000001078588,
+        "mean": 0,
+        "min": 0
+      },
+      "totalResidentOverhead": {
+        "p50": 0.1081240000003163,
+        "p90": 0.11312600000019302,
+        "p99": 0.13187500000003638,
+        "max": 1.17766599999959,
+        "mean": 0.1079,
+        "min": 0.09729200000037963
+      }
+    },
+    {
+      "tier": "TIER_1",
+      "iterations": 20000,
+      "tauResolve": {
+        "p50": 0.003625000001193257,
+        "p90": 0.003875000000334694,
+        "p99": 0.005250000000160071,
+        "max": 0.6489590000001044,
+        "mean": 0.0037,
+        "min": 0.003165999998600455
+      },
+      "tauVerify": {
+        "p50": 0.09787500000129512,
+        "p90": 0.10129200000119454,
+        "p99": 0.11579100000017206,
+        "max": 2.872749999998632,
+        "mean": 0.0981,
+        "min": 0.08762499999829743
+      },
+      "tauMint": {
+        "p50": 0.053750000000945874,
+        "p90": 0.056415999999444466,
+        "p99": 0.06700000000091677,
+        "max": 2.0933750000003783,
+        "mean": 0.0546,
+        "min": 0.04729199999928824
+      },
+      "tauGatewayLocal": {
+        "p50": 0.05120800000076997,
+        "p90": 0.05308300000069721,
+        "p99": 0.061792000000423286,
+        "max": 0.7326670000002196,
+        "mean": 0.0513,
+        "min": 0.04579099999864411
+      },
+      "tauGuardIo": {
+        "p50": 0,
+        "p90": 0.00004199999966658652,
+        "p99": 0.00004200000148557592,
+        "max": 0.0005000000001018634,
+        "mean": 0,
+        "min": 0
+      },
+      "totalResidentOverhead": {
+        "p50": 0.20658300000104646,
+        "p90": 0.21479100000033213,
+        "p99": 0.24116699999831326,
+        "max": 3.003750999998374,
+        "mean": 0.2078,
+        "min": 0.18475100000250677
+      }
+    },
+    {
+      "tier": "TIER_2",
+      "iterations": 20000,
+      "tauResolve": {
+        "p50": 0.003625000001193257,
+        "p90": 0.0038330000006681075,
+        "p99": 0.004709000000730157,
+        "max": 1.2510409999995318,
+        "mean": 0.0038,
+        "min": 0.0031660000004194444
+      },
+      "tauVerify": {
+        "p50": 0.09783299999980954,
+        "p90": 0.10083300000042072,
+        "p99": 0.1112909999974363,
+        "max": 1.3152920000029553,
+        "mean": 0.0975,
+        "min": 0.08775000000059663
+      },
+      "tauMint": {
+        "p50": 0.05362500000046566,
+        "p90": 0.05545899999924586,
+        "p99": 0.0632499999992433,
+        "max": 1.268833000000086,
+        "mean": 0.054,
+        "min": 0.0472090000002936
+      },
+      "tauGatewayLocal": {
+        "p50": 0.050415999998222105,
+        "p90": 0.05158300000039162,
+        "p99": 0.059374999998908606,
+        "max": 1.3543749999989814,
+        "mean": 0.0504,
+        "min": 0.0450829999990674
+      },
+      "tauGuardIo": {
+        "p50": 0,
+        "p90": 0.00004199999966658652,
+        "p99": 0.00004200000148557592,
+        "max": 0.00016700000014679972,
+        "mean": 0,
+        "min": 0
+      },
+      "totalResidentOverhead": {
+        "p50": 0.20570799999768496,
+        "p90": 0.21208300000034797,
+        "p99": 0.2304580000018177,
+        "max": 1.5091659999998228,
+        "mean": 0.2057,
+        "min": 0.18383300000095915
+      }
+    },
+    {
+      "tier": "TIER_3",
+      "iterations": 20000,
+      "tauResolve": {
+        "p50": 0.003666000000521308,
+        "p90": 0.00391700000182027,
+        "p99": 0.004750000000058208,
+        "max": 1.248290999999881,
+        "mean": 0.0038,
+        "min": 0.003165999998600455
+      },
+      "tauVerify": {
+        "p50": 0.09787499999947613,
+        "p90": 0.10037500000180444,
+        "p99": 0.11179099999935715,
+        "max": 5.719375000000582,
+        "mean": 0.099,
+        "min": 0.08787499999743886
+      },
+      "tauMint": {
+        "p50": 0.05362500000046566,
+        "p90": 0.05500000000029104,
+        "p99": 0.06454200000007404,
+        "max": 2.9093750000029104,
+        "mean": 0.0547,
+        "min": 0.04725000000325963
+      },
+      "tauGatewayLocal": {
+        "p50": 0.050834000001486856,
+        "p90": 0.05191700000068522,
+        "p99": 0.06062500000189175,
+        "max": 4.2587080000012065,
+        "mean": 0.0519,
+        "min": 0.04545900000084657
+      },
+      "tauGuardIo": {
+        "p50": 0,
+        "p90": 0.00004199999966658652,
+        "p99": 0.000042000003304565325,
+        "max": 0.0032080000019050203,
+        "mean": 0,
+        "min": 0
+      },
+      "totalResidentOverhead": {
+        "p50": 0.20620799999960582,
+        "p90": 0.21108299999832525,
+        "p99": 0.2334160000027623,
+        "max": 6.364208999995753,
+        "mean": 0.2095,
+        "min": 0.1849999999976717
+      }
+    }
+  ],
+  "scalingMicrobench": [
+    {
+      "receiptCount": 1,
+      "eligibilityTotalMs": 0.06,
+      "witnessSearchTotalMs": 0.009,
+      "canonicalizationTotalMs": 0.002,
+      "manifestHashingTotalMs": 0.009,
+      "efdCutTotalMs": 0.051,
+      "totalScalingTimeMs": 0.122,
+      "avgPerReceiptUs": 121.71
+    },
+    {
+      "receiptCount": 10,
+      "eligibilityTotalMs": 0.447,
+      "witnessSearchTotalMs": 0.067,
+      "canonicalizationTotalMs": 0.009,
+      "manifestHashingTotalMs": 0.002,
+      "efdCutTotalMs": 0.024,
+      "totalScalingTimeMs": 0.482,
+      "avgPerReceiptUs": 48.15
+    },
+    {
+      "receiptCount": 100,
+      "eligibilityTotalMs": 4.848,
+      "witnessSearchTotalMs": 0.727,
+      "canonicalizationTotalMs": 0.054,
+      "manifestHashingTotalMs": 0.001,
+      "efdCutTotalMs": 0.009,
+      "totalScalingTimeMs": 4.913,
+      "avgPerReceiptUs": 49.13
+    },
+    {
+      "receiptCount": 1000,
+      "eligibilityTotalMs": 48.524,
+      "witnessSearchTotalMs": 7.279,
+      "canonicalizationTotalMs": 1.537,
+      "manifestHashingTotalMs": 0.002,
+      "efdCutTotalMs": 0.019,
+      "totalScalingTimeMs": 50.082,
+      "avgPerReceiptUs": 50.08
+    },
+    {
+      "receiptCount": 10000,
+      "eligibilityTotalMs": 485.762,
+      "witnessSearchTotalMs": 72.864,
+      "canonicalizationTotalMs": 6.121,
+      "manifestHashingTotalMs": 0.005,
+      "efdCutTotalMs": 0.025,
+      "totalScalingTimeMs": 491.913,
+      "avgPerReceiptUs": 49.19
+    }
+  ],
+  "certificateSizes": [
+    {
+      "tier": "TIER_0",
+      "certificateBytes": 865,
+      "witnessManifestBytes": 97,
+      "evidenceReceiptBytes": 762,
+      "signatureBytes": 64
+    },
+    {
+      "tier": "TIER_1",
+      "certificateBytes": 989,
+      "witnessManifestBytes": 97,
+      "evidenceReceiptBytes": 762,
+      "signatureBytes": 64
+    },
+    {
+      "tier": "TIER_2",
+      "certificateBytes": 989,
+      "witnessManifestBytes": 97,
+      "evidenceReceiptBytes": 762,
+      "signatureBytes": 64
+    },
+    {
+      "tier": "TIER_3",
+      "certificateBytes": 989,
+      "witnessManifestBytes": 97,
+      "evidenceReceiptBytes": 762,
+      "signatureBytes": 64
+    }
+  ]
+}

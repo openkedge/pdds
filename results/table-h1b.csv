@@ -1,0 +1,2 @@
+Hypothesis,Comparison,Scope,N,n01,n10,RiskDifference,RD_Lower,RD_Upper,RelativeRisk,RR_Lower,RR_Upper,OddsRatio,OR_Lower,OR_Upper,Chi2,Exact_p,Adj_p,Verdict
+H1b,"CAC vs B1","F1-F11 (Failure Classes)",330,300,0,0.9091,0.8714,0.9356,11,7.8202,15.4728,600,37.443,9614.6239,298.0033,9.818186930595453e-91,0,SUPPORTED

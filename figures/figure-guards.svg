@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<rect width="680" height="380" fill="#ffffff"/>
+<text x="80" y="32" font-size="18" font-weight="700" fill="#111827">Guard-Bound Interception: Defense Against TOCTOU Invalidation (F5)</text>
+<text x="80" y="50" font-size="12" fill="#6b7280">Runtime guard evaluation at dispatch vs pre-check without gateway guards</text>
+<rect x="107.5" y="60" width="82.5" height="250" fill="#ef4444" rx="4"/>
+<text x="148.75" y="52" font-size="12" font-weight="700" fill="#ef4444" text-anchor="middle">100% UIER</text>
+<text x="148.75" y="335" font-size="12" font-weight="600" fill="#111827" text-anchor="middle">B0 (Unchecked)</text>
+<rect x="245" y="60" width="82.5" height="250" fill="#ef4444" rx="4"/>
+<text x="286.25" y="52" font-size="12" font-weight="700" fill="#ef4444" text-anchor="middle">100% UIER</text>
+<text x="286.25" y="335" font-size="12" font-weight="600" fill="#111827" text-anchor="middle">B2 (Pre-check Only)</text>
+<rect x="382.5" y="60" width="82.5" height="250" fill="#ef4444" rx="4"/>
+<text x="423.75" y="52" font-size="12" font-weight="700" fill="#ef4444" text-anchor="middle">100% UIER</text>
+<text x="423.75" y="335" font-size="12" font-weight="600" fill="#111827" text-anchor="middle">CAC-NoGuard</text>
+<rect x="520" y="310" width="82.5" height="0" fill="#10b981" rx="4"/>
+<text x="561.25" y="302" font-size="12" font-weight="700" fill="#10b981" text-anchor="middle">0% UIER</text>
+<text x="561.25" y="335" font-size="12" font-weight="600" fill="#111827" text-anchor="middle">CAC (Guard-Bound)</text>
+<line x1="80" y1="310" x2="630" y2="310" stroke="#111827" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,9 @@
+Scenario,Controller,UIER,SICR,MeanTTSR_ms
+F3,CAC,0,0,0.3
+F3,CAC-NoRemediation,0,0,0.07
+F6,CAC,0,0,0.24
+F6,CAC-NoRemediation,0,0,0.04
+F8,CAC,0,0,0.33
+F8,CAC-NoRemediation,0,0,0.04
+E1,CAC,0,1,0.53
+E1,CAC-NoRemediation,0,0,0.02

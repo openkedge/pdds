@@ -1,0 +1,56 @@
+TrialSeed,CAC_Safe,B5_Safe,CAC_NoEFD_Safe,CAC_Verdicts,B5_Verdicts,CAC_NoEFD_Verdicts
+1,true,false,false,DEFER,PERMIT,PERMIT
+2,true,false,false,DEFER,PERMIT,PERMIT
+3,true,false,false,DEFER,PERMIT,PERMIT
+4,true,false,false,DEFER,PERMIT,PERMIT
+5,true,false,false,DEFER,PERMIT,PERMIT
+6,true,false,false,DEFER,PERMIT,PERMIT
+7,true,false,false,DEFER,PERMIT,PERMIT
+8,true,false,false,DEFER,PERMIT,PERMIT
+9,true,false,false,DEFER,PERMIT,PERMIT
+10,true,false,false,DEFER,PERMIT,PERMIT
+11,true,false,false,DEFER,PERMIT,PERMIT
+12,true,false,false,DEFER,PERMIT,PERMIT
+13,true,false,false,DEFER,PERMIT,PERMIT
+14,true,false,false,DEFER,PERMIT,PERMIT
+15,true,false,false,DEFER,PERMIT,PERMIT
+16,true,false,false,DEFER,PERMIT,PERMIT
+17,true,false,false,DEFER,PERMIT,PERMIT
+18,true,false,false,DEFER,PERMIT,PERMIT
+19,true,false,false,DEFER,PERMIT,PERMIT
+20,true,false,false,DEFER,PERMIT,PERMIT
+21,true,false,false,DEFER,PERMIT,PERMIT
+22,true,false,false,DEFER,PERMIT,PERMIT
+23,true,false,false,DEFER,PERMIT,PERMIT
+24,true,false,false,DEFER,PERMIT,PERMIT
+25,true,false,false,DEFER,PERMIT,PERMIT
+26,true,false,false,DEFER,PERMIT,PERMIT
+27,true,false,false,DEFER,PERMIT,PERMIT
+28,true,false,false,DEFER,PERMIT,PERMIT
+29,true,false,false,DEFER,PERMIT,PERMIT
+30,true,false,false,DEFER,PERMIT,PERMIT
+31,true,false,false,DEFER,PERMIT,PERMIT
+32,true,false,false,DEFER,PERMIT,PERMIT
+33,true,false,false,DEFER,PERMIT,PERMIT
+34,true,false,false,DEFER,PERMIT,PERMIT
+35,true,false,false,DEFER,PERMIT,PERMIT
+36,true,false,false,DEFER,PERMIT,PERMIT
+37,true,false,false,DEFER,PERMIT,PERMIT
+38,true,false,false,DEFER,PERMIT,PERMIT
+39,true,false,false,DEFER,PERMIT,PERMIT
+40,true,false,false,DEFER,PERMIT,PERMIT
+41,true,false,false,DEFER,PERMIT,PERMIT
+42,true,false,false,DEFER,PERMIT,PERMIT
+43,true,false,false,DEFER,PERMIT,PERMIT
+44,true,false,false,DEFER,PERMIT,PERMIT
+45,true,false,false,DEFER,PERMIT,PERMIT
+46,true,false,false,DEFER,PERMIT,PERMIT
+47,true,false,false,DEFER,PERMIT,PERMIT
+48,true,false,false,DEFER,PERMIT,PERMIT
+49,true,false,false,DEFER,PERMIT,PERMIT
+50,true,false,false,DEFER,PERMIT,PERMIT
+
+# McNemar Test CAC vs B5: Chi2=48.0200, pValue=4.2455e-12, significant=true
+# Contingency Table CAC vs B5: bothSafe=0, aSafeBUnsafe=50, aUnsafeBSafe=0, bothUnsafe=0
+# McNemar Test CAC vs CAC-NoEFD: Chi2=48.0200, pValue=4.2455e-12, significant=true
+# Contingency Table CAC vs CAC-NoEFD: bothSafe=0, aSafeBUnsafe=50, aUnsafeBSafe=0, bothUnsafe=0

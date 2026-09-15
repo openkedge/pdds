@@ -1,0 +1,8 @@
+{
+  "runs/final/batch-cac-v0.4-study/raw-trials.jsonl": "955d161832f3909e635e57e82920f9fb8e2972a9fafc930bc7963897e54842aa",
+  "runs/final/batch-cac-v0.4-study/batch-manifest.json": "e467bcab1348c91b43ced92fbadec4eef7e2c942181ceb8214f41d227796c8df",
+  "runs/final/batch-cac-v0.4-study/microbench.json": "22805e6adb31a8a30dda65e2b710f880082b849bb284c8c46213b0956e007192",
+  "runs/pilot/batch-cac-v0.4-study/raw-trials.jsonl": "d7937f81d1bca75f8841b94fe336d3a150c955f1d3cd00d615f0765d30cc7f0a",
+  "runs/pilot/batch-cac-v0.4-study/batch-manifest.json": "3ed2536e4cc84fa63b52648a571b76bec5503a2c834126955b8fcf64ae6a0e95",
+  "runs/pilot/batch-cac-v0.4-study/microbench.json": "1af49db0adc17fc8cb9599b07874012faeee92f78d7a4e43b55fe80948c39001"
+}

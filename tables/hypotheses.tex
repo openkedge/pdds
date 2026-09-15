@@ -1,0 +1,21 @@
+% Generated automatically by CAC v0.4 Hypothesis Pipeline
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4.5pt}
+\caption{Confirmatory Hypothesis Evaluation with Exact McNemar Tests and Holm-Bonferroni Multiplicity Adjustment.}
+\label{tab:hypotheses}
+\begin{tabularx}{\textwidth}{llXcrrlrc}
+\toprule
+\textbf{Hyp.} & \textbf{Comparison} & \textbf{Scope} & $N$ & $n_{01}$ & $n_{10}$ & \textbf{Effect Size [95\% CI]} & \textbf{Adj. $p$} & \textbf{Verdict} \\
+\midrule
+H1a & CAC vs B0 & F1-F11 (Failure Classes) & 330 & 270 & 0 & $RD=0.818$ [0.77, 0.86] & $<0.0001$ & \textsc{SUPPORTED} \\
+H1b & CAC vs B1 & F1-F11 (Failure Classes) & 330 & 300 & 0 & $RD=0.909$ [0.87, 0.94] & $<0.0001$ & \textsc{SUPPORTED} \\
+H2 & CAC vs B4 & F1, F2, F5 (State Grounding) & 90 & 60 & 0 & $RD=0.667$ [0.56, 0.76] & $<0.0001$ & \textsc{SUPPORTED} \\
+H3a & CAC vs B5 & F4 (EFD Correlated Partition) & 30 & 30 & 0 & $RD=1.000$ [0.84, 1.00] & $<0.0001$ & \textsc{SUPPORTED} \\
+H3b & CAC vs CAC-NoEFD & F4 (EFD Correlated Partition) & 30 & 30 & 0 & $RD=1.000$ [0.84, 1.00] & $<0.0001$ & \textsc{SUPPORTED} \\
+H4 & CAC vs CAC-NoAdaptiveOmega & E1 (Governed Rehearsal Mutation) & 30 & 30 & 0 & $\Delta\text{SICR}=1.000$ [0.84, 1.00] & $<0.0001$ & \textsc{SUPPORTED} \\
+H5 & CAC vs CAC-NoGuard & F5 (TOCTOU Lease Expiry) & 30 & 30 & 0 & $RD=1.000$ [0.84, 1.00] & $<0.0001$ & \textsc{SUPPORTED} \\
+\bottomrule
+\end{tabularx}
+\end{table*}

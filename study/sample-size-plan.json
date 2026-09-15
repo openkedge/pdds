@@ -1,0 +1,147 @@
+{
+  "studyVersion": "0.4.0",
+  "generatedAt": "2026-09-12T10:25:00Z",
+  "methodology": "Paired matched-intent trials evaluated via McNemar exact discordant-pair formulation with Holm-Bonferroni family-wise alpha adjustment.",
+  "parameters": {
+    "nominalAlpha": 0.05,
+    "targetPower": 0.80,
+    "infrastructureInvalidAllowancePercent": 15
+  },
+  "hypotheses": [
+    {
+      "hypothesis": "H1",
+      "name": "Intent Safety Reduction",
+      "comparisons": [
+        {
+          "baseline": "B0",
+          "scenarioClasses": ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11"],
+          "pilotN": 55,
+          "p01": 0.818,
+          "p10": 0.0,
+          "discordantRate": 0.818,
+          "targetEffectRiskDiff": 0.818,
+          "alpha": 0.025,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 12,
+          "recommendedN": 20,
+          "selectedFinalN": 30
+        },
+        {
+          "baseline": "B1",
+          "scenarioClasses": ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11"],
+          "pilotN": 55,
+          "p01": 0.909,
+          "p10": 0.0,
+          "discordantRate": 0.909,
+          "targetEffectRiskDiff": 0.909,
+          "alpha": 0.025,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 10,
+          "recommendedN": 16,
+          "selectedFinalN": 30
+        }
+      ]
+    },
+    {
+      "hypothesis": "H2",
+      "name": "Resource Scaling vs. External Verification",
+      "comparisons": [
+        {
+          "baseline": "B4",
+          "scenarioClasses": ["F1", "F2", "F5"],
+          "pilotN": 15,
+          "p01": 0.667,
+          "p10": 0.0,
+          "discordantRate": 0.667,
+          "targetEffectRiskDiff": 0.667,
+          "alpha": 0.05,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 18,
+          "recommendedN": 25,
+          "selectedFinalN": 30
+        }
+      ]
+    },
+    {
+      "hypothesis": "H3",
+      "name": "Structural Epistemic Resilience",
+      "comparisons": [
+        {
+          "baseline": "B5",
+          "scenarioClasses": ["F4"],
+          "pilotN": 5,
+          "p01": 1.0,
+          "p10": 0.0,
+          "discordantRate": 1.0,
+          "targetEffectRiskDiff": 1.0,
+          "alpha": 0.025,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 8,
+          "recommendedN": 15,
+          "selectedFinalN": 30
+        },
+        {
+          "baseline": "CAC-NoEFD",
+          "scenarioClasses": ["F4"],
+          "pilotN": 5,
+          "p01": 1.0,
+          "p10": 0.0,
+          "discordantRate": 1.0,
+          "targetEffectRiskDiff": 1.0,
+          "alpha": 0.025,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 8,
+          "recommendedN": 15,
+          "selectedFinalN": 30
+        }
+      ]
+    },
+    {
+      "hypothesis": "H4",
+      "name": "Risk-Conditioned Agility",
+      "comparisons": [
+        {
+          "baseline": "CAC-NoAdaptiveOmega",
+          "scenarioClasses": ["E1"],
+          "pilotN": 5,
+          "p01": 1.0,
+          "p10": 0.0,
+          "discordantRate": 1.0,
+          "targetEffectRiskDiff": 1.0,
+          "alpha": 0.05,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 8,
+          "recommendedN": 15,
+          "selectedFinalN": 30
+        }
+      ]
+    },
+    {
+      "hypothesis": "H5",
+      "name": "Guard-Bound Stale-Admission Interception",
+      "comparisons": [
+        {
+          "baseline": "CAC-NoGuard",
+          "scenarioClasses": ["F5"],
+          "pilotN": 5,
+          "p01": 1.0,
+          "p10": 0.0,
+          "discordantRate": 1.0,
+          "targetEffectRiskDiff": 1.0,
+          "alpha": 0.05,
+          "power": 0.80,
+          "minimumRequiredMatchedTrials": 8,
+          "recommendedN": 15,
+          "selectedFinalN": 30
+        }
+      ]
+    }
+  ],
+  "studyProtocol": {
+    "trialsPerScenarioVariant": 30,
+    "canonicalVariantsCount": 25,
+    "totalMatchedEvaluationTrialsPerController": 750,
+    "evaluationSeedRange": [101, 130],
+    "pilotSeedRange": [1, 5]
+  }
+}

@@ -1,0 +1,25 @@
+% Generated automatically by CAC v0.4 Statistical Pipeline
+\begin{table*}[t]
+\centering
+\small
+\caption{Comparative Performance of CAC vs Baselines across Failure Scenarios F1--F11 ($N=330$ trials/ctrl) and Governed Rehearsal Mutation E1 ($N=30$ trials/ctrl).}
+\label{tab:main-results}
+\begin{tabular}{lrrrrrrr}
+\toprule
+\textbf{Controller} & \textbf{Trials} & \textbf{UIER (F1--F11)} [95\% CI] & \textbf{SICR (F1--F11)} & \textbf{SICR (E1)} & \textbf{TTSR (ms)} & \textbf{Cost (\$)} & \textbf{Overhead (ms)} \\
+\midrule
+B0 & 360 & 81.8\% [77.3, 85.6] & 9.1\% & 100.0\% & 0.0 & \$0.0010 & 0.050 \\
+B1 & 360 & 90.9\% [87.3, 93.6] & 9.1\% & 100.0\% & 0.0 & \$0.0020 & 0.150 \\
+B2 & 360 & 54.5\% [49.1, 59.8] & 9.1\% & 100.0\% & 0.0 & \$0.0150 & 0.700 \\
+B3 & 360 & 72.7\% [67.7, 77.3] & 7.3\% & 80.0\% & 0.0 & \$0.0300 & 27.400 \\
+B4 & 360 & 90.9\% [87.3, 93.6] & 9.1\% & 100.0\% & 16.0 & \$0.0500 & 15.200 \\
+B5 & 360 & 9.1\% [6.4, 12.7] & 0.0\% & 0.0\% & 0.1 & \$0.0450 & 1.225 \\
+CAC & 360 & 0.0\% [0.0, 1.1] & 0.0\% & 100.0\% & 0.4 & \$0.0208 & 0.326 \\
+CAC-NoGuard & 360 & 9.1\% [6.4, 12.7] & 0.0\% & 100.0\% & 0.2 & \$0.0208 & 0.180 \\
+CAC-NoRemediation & 360 & 0.0\% [0.0, 1.1] & 0.0\% & 0.0\% & 0.0 & \$0.0050 & 0.038 \\
+CAC-NoAdaptiveOmega & 360 & 0.0\% [0.0, 1.1] & 0.0\% & 0.0\% & 0.2 & \$0.0242 & 0.188 \\
+CAC-NoTypedEvidence & 360 & 9.1\% [6.4, 12.7] & 0.0\% & 100.0\% & 0.2 & \$0.0208 & 0.143 \\
+CAC-NoEFD & 360 & 9.1\% [6.4, 12.7] & 0.0\% & 100.0\% & 0.1 & \$0.0183 & 0.111 \\
+\bottomrule
+\end{tabular}
+\end{table*}

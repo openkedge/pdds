@@ -1,0 +1,8 @@
+ScenarioId,ScenarioName,BoundaryDescription,FailureMode,ControllerAdmissionGranted,UnsafeExecutionOccurred,EpistemicAssumptionViolated
+BND1,"Boundary: Consequence Miss","Agent under-reports severity as LOW on production cluster; tests organizational invariant binding.","None",false,false,"Assumption 1: Accurate self-reported proposal consequence severity"
+BND2,"Boundary: Hidden Topology","Undocumented out-of-band hardware bridge creates hidden failure dependency unknown to controller.","None",false,false,"Assumption 2: Complete controller visibility of physical topology"
+BND3,"Boundary: Compromised Sensor","Exfiltrated signing key signs false 0-lag receipt; demonstrates authenticity != truth boundary.","None",false,false,"Assumption 3: Cryptographic integrity implies factual physical truth"
+BND4,"Boundary: Policy Guard Omission","Policy author omitted role check guard; tests vulnerability to human policy specification flaws.","None",false,false,"Assumption 4: Policy author completeness in guard specification"
+EFD-BND1,"EFD Boundary: Hidden Dependency Omitted","Author omitted shared upstream DNS resolver from EFD profile; correlated failure escapes structural cut.","None",false,false,"Assumption 5: Complete enumeration of dependencies in EFD profile"
+EFD-BND2,"EFD Boundary: Hidden Shared Upstream","Two distinct cloud providers share single physical fiber path; physical common cause unmodeled in profile.","None",false,false,"Assumption 6: Independence of physical upstream cloud infrastructure"
+EFD-BND3,"EFD Boundary: Stale Profile Epoch","EFD profile epoch does not match current system deployment epoch; rejected as stale profile.","None",false,false,"Assumption 7: Profile epoch freshness and synchronization"

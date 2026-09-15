@@ -1,0 +1,12 @@
+Scenario,ViolatedAssumption,RemainingDefenses,CACVerdict,UnsafeEffect,ExpectedOutcome,Interpretation
+BND1,"Consequence Classification Soundness","None (lightweight bypass path)",BYPASS/PERMIT,YES,PASS,"Unmodeled IAM link bypasses obligations; mutation corrupts production."
+BND2,"Physical Topology Completeness","Primary target telemetry only",PERMIT,YES,PASS,"Incomplete topology graph hides blast radius; cascading outage occurs."
+BND3,"Trusted Evidence Root Authenticity","Signature check on compromised root",PERMIT,YES,PASS,"Authenticity $\neq$ truth; forged claim satisfies obligation, inducing data loss."
+BND4,"Guard Specification Completeness","Pre-admission check passed",PERMIT,YES,PASS,"Omitted live guard permits dispatch under unmonitored post-admission drift."
+ROB1,"Static Classification Miss","Dynamic rule / regex lookup",DEFER,NO,PASS (Robust),"Secondary pattern matcher intercepts mutation; fails closed."
+ROB2,"Incomplete Topology Declaration","Direct physical replica telemetry",DEFER,NO,PASS (Robust),"Physical replication lag obligation independently intercepts unsafe promotion."
+ROB3,"Single Sensor Compromise","Structurally diverse witness panel",DEFER,NO,PASS (Robust),"Structural cut constraint ($\kappa_E \ge 2$) blocks single-sensor attestation."
+ROB4,"Guard Omission in Template","Prerequisite secondary obligation",DEFER,NO,PASS (Robust),"Unfulfilled dependency times out in work loop, safely aborting dispatch."
+EFD-BND1,"Dependency Graph Completeness","EFD profile schema validator",DENY,NO,PASS (Robust),"Incomplete dependency profile rejected during initialization."
+EFD-BND2,"Physical Provider Independence","Multi-cloud topology validator",DENY,NO,PASS (Robust),"Colocated provider root detected; profile rejected before admission."
+EFD-BND3,"Profile Epoch Freshness","Gateway epoch freshness guard",DENY,NO,PASS (Robust),"Stale profile epoch rejected at gateway before dispatch."

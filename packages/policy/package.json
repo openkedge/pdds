@@ -1,0 +1,16 @@
+{
+  "name": "@cac/policy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cac/core": "workspace:*",
+    "@cac/schemas": "workspace:*"
+  }
+}

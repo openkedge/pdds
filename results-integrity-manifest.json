@@ -1,0 +1,38 @@
+{
+  "contractId": "cac-study-v1",
+  "contractDigest": "4cd89808c47313226b2fd3aaae87277146f58d960428c4b9fab61a5e26d7581d",
+  "analysisCommit": "2063017489dd29e1c30f1c4f6d51c2c164ae6120",
+  "generatedAt": "2026-09-13T08:58:00.000Z",
+  "validTrialCount": 5077,
+  "trialAccounting": {
+    "precommittedMatchedComparativeIntentTrials": 4320,
+    "multiVariantStabilityTrials": 750,
+    "boundaryFalsificationRuns": 7,
+    "totalExecutions": 5077
+  },
+  "controllerCount": 12,
+  "controllers": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "CAC",
+    "CAC-NoGuard",
+    "CAC-NoRemediation",
+    "CAC-NoAdaptiveOmega",
+    "CAC-NoTypedEvidence",
+    "CAC-NoEFD"
+  ],
+  "scenarioCount": 44,
+  "canonicalScenariosCount": 12,
+  "variantCount": 25,
+  "boundaryRunCount": 7,
+  "rawResultHashes": {
+    "runs/final/batch-cac-v0.4-study/raw-trials.jsonl": "955d161832f3909e635e57e82920f9fb8e2972a9fafc930bc7963897e54842aa",
+    "runs/final/batch-cac-v0.4-study/microbench.json": "4e5faecfa29ceecf77759b9a6ba1c3f9157db2d37c8ee4fe97bb2155bc8b15d2",
+    "runs/final/batch-cac-v0.4-study/batch-manifest.json": "00a5d43e26c63b2ad581ea199ae9a2e6fca78d227b3fa1b490f23f668f44766f"
+  },
+  "integrityStatus": "VALIDATED"
+}

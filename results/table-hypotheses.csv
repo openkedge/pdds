@@ -1,0 +1,8 @@
+Hypothesis,Comparison,Scope,N,n01,n10,RiskDifference,RD_Lower,RD_Upper,TestType,Adj_p,Verdict
+H1a,"CAC vs B0","F1-F11 (Failure Classes)",330,270,0,0.8182,0.7715,0.8561,"Exact McNemar",0,SUPPORTED
+H1b,"CAC vs B1","F1-F11 (Failure Classes)",330,300,0,0.9091,0.8714,0.9356,"Exact McNemar",0,SUPPORTED
+H2,"CAC vs B4","F1, F2, F5 (State Grounding)",90,60,0,0.6667,0.5563,0.7555,"Exact McNemar",0,SUPPORTED
+H3a,"CAC vs B5","F4 (EFD Correlated Partition)",30,30,0,1,0.8395,1,"Exact McNemar",0,SUPPORTED
+H3b,"CAC vs CAC-NoEFD","F4 (EFD Correlated Partition)",30,30,0,1,0.8395,1,"Exact McNemar",0,SUPPORTED
+H4,"CAC vs CAC-NoAdaptiveOmega","E1 (Governed Rehearsal Mutation)",30,30,0,1,0.8395,1,"Exact McNemar / Paired Wilcoxon",0,SUPPORTED
+H5,"CAC vs CAC-NoGuard","F5 (TOCTOU Lease Expiry)",30,30,0,1,0.8395,1,"Exact McNemar",0,SUPPORTED

@@ -1,0 +1,69 @@
+{
+  "study_contract_version": "cac-study-v1",
+  "studyContractVersion": "cac-study-v1",
+  "contractName": "CAC v0.4 Study Contract",
+  "frozenAt": "2026-09-12T17:22:36.497Z",
+  "targetRelease": "cac-v0.4-study-freeze",
+  "components": {
+    "scenarios": {
+      "packages/bench/cacbench/src/scenarios/f1.ts": "8aec22a0ee862d0018a449485ca66e52cbb8b512df2d8936842b57ac5fcec6ed",
+      "packages/bench/cacbench/src/scenarios/f2.ts": "0c0226779f06733622e8cb6c10e5e1afb814dce865b4f32bc2c9a1cdf6b2926b",
+      "packages/bench/cacbench/src/scenarios/f3.ts": "7fd1b7ab82ccf4c86401192f814d35358d2f0a1e5f196e184e927b08dca81af0",
+      "packages/bench/cacbench/src/scenarios/f4.ts": "fabdcbc5da8e094cde8d78442bfb8c2a6269c2eb417ff4bf83150f07f461c442",
+      "packages/bench/cacbench/src/scenarios/f5.ts": "920e360eed3227b93ddf802d86e193c45009076a4d73d189cf08bc391e4e0388",
+      "packages/bench/cacbench/src/scenarios/f6.ts": "b272917f218dd725eafedb6e35a7cb34036f3fbdf01b7dc0684ce994661fbfa0",
+      "packages/bench/cacbench/src/scenarios/f7.ts": "b5e49b092ccd314242cd9efb92584497d921b39be07d808baffda95d2e0e3a50",
+      "packages/bench/cacbench/src/scenarios/f8.ts": "29b8b27412d50ae72f71c1760601ea76151f38c6892735c5649738051d7956f2",
+      "packages/bench/cacbench/src/scenarios/f9.ts": "665d8728f581b6bce2f3d98e06a559a92d36878838423c6d0f6b935fa624b9c7",
+      "packages/bench/cacbench/src/scenarios/f10.ts": "cf5b80edc14e468082331977b571b4eaf5e4c5f0a71a7fe2e238e8b289b49a16",
+      "packages/bench/cacbench/src/scenarios/f11.ts": "64bec275f25433e3f44a5ed967655f31f38cb05aaade0434f213e2d90ed8db43",
+      "packages/bench/cacbench/src/scenarios/e1.ts": "8e4bde95201cd041a02d6627965519ab9aea3cdcdb7b4a3dcb76925e1fac43c7",
+      "packages/bench/cacbench/src/scenarios/variants.ts": "1390770da521031316d497b6bd9345794b7e4f70ad0bf860049b92e22eff4779",
+      "packages/bench/cacbench/src/scenarios/boundary.ts": "dca72cb9c68ff58cd2b8759f585345dcf9f037d1a919cde35be43794f331cb7c"
+    },
+    "policies": {
+      "packages/policy/src/postgresPolicy.ts": "2434b5998ca676c187ed4d7def2bdfee0f866231a9c7677f66f18de73e51bc39",
+      "packages/adapters/kubernetes/src/policies.ts": "b14974d674512f5427a3198f4c24f1ec4961ff9042d611811dc109c51630b8e6"
+    },
+    "envelopes": {
+      "packages/certificate/src/envelope.ts": "566313f28636b9e44e18ad2761fc5021e666020d8295b9fd09e964f6a296df5c",
+      "packages/policy/src/envelopeRegistry.ts": "2e47ca171f20801f942842ed489dfdf1272eed692d4ee909b325d3556d1a60fc"
+    },
+    "efdProfiles": {
+      "packages/evidence/src/efd.ts": "1f7f8e94d54758dea6a7824b08e20432e6c4236711989bb57d1fbea9752cfe58"
+    },
+    "baselines": {
+      "baselines/B0.json": "569e3935e2c63d805a5e6ae42911d409d0d2dfa8708abbdd79085796d57f6482",
+      "baselines/B1.json": "98d8531e9b8b267bd2f48da40fbf526e2a08e742115c592b421c25121de5c0ce",
+      "baselines/B2.json": "8d19effaac39bcc3eee0f501c91f07acd7ba57966ac9911a4482d70bfbb8323c",
+      "baselines/B3.json": "97c839f463d4b042f89459bb7798a291aceef1127241728d1f9b2d03856f7232",
+      "baselines/B4.json": "084a099aeea2929952e6a102b676128cea8cf82b485490c337ff07b46c05224c",
+      "baselines/B5.json": "97e574296af516ef72d855a0977bef72e672ef1b55af6ed395a91e5425636b19",
+      "baselines/CAC.json": "05fd33378f687ab366d7800dccd8dcb839d4d29d6518fa399cb492798814b28b",
+      "baselines/ablations.json": "ebdcafc675b2b45e4f5d721f9e88bc78de91a6ede6ee13c12d10e901a0926f6f"
+    },
+    "controllers": {
+      "packages/bench/cacbench/src/controllers/b0.ts": "48435b578fc839c58092750af0d1fcfd5264dcb29da7d8d25258d965625a9603",
+      "packages/bench/cacbench/src/controllers/b1.ts": "dfa25645d9261484e8d0a75e3d558e323f8dd6a8a27faf8122b91088c8a9a494",
+      "packages/bench/cacbench/src/controllers/b2.ts": "071f0ef93771c58566f4f881f9f8d14abaf3738eb792201cb5be3c3d7b2d067a",
+      "packages/bench/cacbench/src/controllers/b3.ts": "0fecddfb3ee5f6e3120b5e86601d57c5ee50748ae1ef47b9e70b05302f3f27ce",
+      "packages/bench/cacbench/src/controllers/b4.ts": "6a0b9408b4431949ec58e03ec47958024bd6b47470142f393f3f84175cfa0a08",
+      "packages/bench/cacbench/src/controllers/b5.ts": "e871cab6ae64f75e8fa8578cf5a8500fdab3e3ea98782fc705dad4da47797542",
+      "packages/bench/cacbench/src/controllers/cac.ts": "f2d2b2ad66f14f4dca162403aaa26ef5d191a3a267fa31e51aa68bbc15df643d"
+    },
+    "oracles": {
+      "packages/bench/cacbench/src/oracles.ts": "992ab81198c910fe03337d8de2dc8d87810f31994f8bfedde0ec7794aab30ee0"
+    },
+    "metricsAndStats": {
+      "packages/bench/cacbench/src/runner.ts": "fbf33314c7e0bc8ac685907a55002548d7247d2ef921dcc5ce143a79305536a3",
+      "packages/bench/cacbench/src/stats.ts": "fbb6299e748b733afdd4893d4d8318697a233548dcca771c38a4049d0242e989"
+    },
+    "models": {
+      "configs/models.json": "af4c2c74b9d93be9a47ed076d3167f5fc4debf92bb77ad706436a5ca9d57f36a"
+    },
+    "schemas": {
+      "packages/schemas/src/index.ts": "5f1ceb88e5063471e7d05d5077e37861149724c5727f50582eedf95346f12527"
+    }
+  },
+  "overallDigest": "4cd89808c47313226b2fd3aaae87277146f58d960428c4b9fab61a5e26d7581d"
+}

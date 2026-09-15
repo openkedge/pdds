@@ -1,0 +1,48 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cac/schemas": [
+        "packages/schemas/src/index.ts"
+      ],
+      "@cac/core": [
+        "packages/core/src/index.ts"
+      ],
+      "@cac/policy": [
+        "packages/policy/src/index.ts"
+      ],
+      "@cac/evidence": [
+        "packages/evidence/src/index.ts"
+      ],
+      "@cac/workloop": [
+        "packages/workloop/src/index.ts"
+      ],
+      "@cac/certificate": [
+        "packages/certificate/src/index.ts"
+      ],
+      "@cac/gateway": [
+        "packages/gateway/src/index.ts"
+      ],
+      "@cac/adapter-postgres": [
+        "packages/adapters/postgres/src/index.ts"
+      ],
+      "@cac/adapter-kubernetes": [
+        "packages/adapters/kubernetes/src/index.ts"
+      ],
+      "@cac/bench": [
+        "packages/bench/cacbench/src/index.ts"
+      ],
+      "@cac/bench-postgres-failover": [
+        "packages/bench/postgres-failover/src/index.ts"
+      ]
+    },
+    "noEmit": true
+  },
+  "include": [
+    "packages/**/*",
+    "tests/**/*",
+    "examples/**/*",
+    "bin/**/*"
+  ]
+}

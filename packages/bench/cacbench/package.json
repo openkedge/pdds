@@ -1,0 +1,23 @@
+{
+  "name": "@cac/bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@cac/core": "workspace:*",
+    "@cac/schemas": "workspace:*",
+    "@cac/policy": "workspace:*",
+    "@cac/evidence": "workspace:*",
+    "@cac/certificate": "workspace:*",
+    "@cac/gateway": "workspace:*",
+    "@cac/workloop": "workspace:*",
+    "@cac/adapter-postgres": "workspace:*"
+  }
+}

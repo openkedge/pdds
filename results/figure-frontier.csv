@@ -1,0 +1,13 @@
+Controller,Type,UIER,SICR,MeanCostUSD,MeanOverheadMs
+B0,Baseline,0.8182,0.0909,0.001,0.05
+B1,Baseline,0.9091,0.0909,0.002,0.15
+B2,Baseline,0.5455,0.0909,0.015,0.7
+B3,Baseline,0.7273,0.0727,0.03,27.4
+B4,Baseline,0.9091,0.0909,0.05,15.2
+B5,Baseline,0.0909,0,0.045,1.225
+CAC,Proposed,0,0,0.02083,0.326
+CAC-NoGuard,Ablation,0.0909,0,0.02083,0.18
+CAC-NoRemediation,Ablation,0,0,0.005,0.038
+CAC-NoAdaptiveOmega,Ablation,0,0,0.02417,0.188
+CAC-NoTypedEvidence,Ablation,0.0909,0,0.02083,0.143
+CAC-NoEFD,Ablation,0.0909,0,0.01833,0.111

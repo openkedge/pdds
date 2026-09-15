@@ -1,0 +1,30 @@
+{
+  "name": "pdds",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Post-Deterministic Distributed Systems (PDDS) - Reference Implementations & Benchmarks",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:conformance": "vitest run tests/conformance",
+    "test:integration": "vitest run tests/integration",
+    "demo": "tsx bin/cac-demo.ts all",
+    "demo:postgres": "tsx bin/cac-demo.ts postgres-failover",
+    "demo:k8s": "tsx bin/cac-demo.ts kubernetes-drain",
+    "demo:efd": "tsx bin/cac-demo.ts efd-quorum",
+    "bench:run": "tsx bin/cacbench.ts suite",
+    "study": "node --import tsx bin/cac-study.ts",
+    "analyze": "tsx bin/cac-analyze.ts",
+    "microbench": "node --import tsx bin/cac-microbench.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fast-check": "^3.23.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.1"
+  }
+}

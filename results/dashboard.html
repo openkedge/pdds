@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CAC v0.4 Confirmatory Study Results Dashboard</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 24px; background: #f8fafc; color: #0f172a; }
+    h1, h2, h3 { color: #0f172a; }
+    .card { background: #ffffff; border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .stat-box { background: #f1f5f9; border-radius: 6px; padding: 16px; border-left: 4px solid #3b82f6; }
+    .stat-box.success { border-left-color: #10b981; }
+    .stat-val { font-size: 28px; font-weight: 700; margin-top: 4px; }
+    .stat-label { font-size: 13px; color: #64748b; font-weight: 600; text-transform: uppercase; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+    th { background: #f8fafc; font-weight: 600; color: #475569; }
+    .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+    .badge-supported { background: #dcfce7; color: #166534; }
+    .badge-cac { background: #d1fae5; color: #065f46; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h1>Cognitive Admission Control (CAC) — v0.4 Confirmatory Study Dashboard</h1>
+  <p style="color: #64748b;">Contract Digest: <code>4cd89808c47313226b2fd3aaae87277146f58d960428c4b9fab61a5e26d7581d</code> | Batch: <code>batch-cac-v0.4-study</code> | Total Trials: <strong>5261</strong></p>
+
+  <div class="grid">
+    <div class="stat-box success">
+      <div class="stat-label">CAC UIER (Safety)</div>
+      <div class="stat-val" style="color: #059669;">0.00%</div>
+      <div style="font-size: 12px; color: #64748b; margin-top: 4px;">Zero invariant violations</div>
+    </div>
+    <div class="stat-box success">
+      <div class="stat-label">CAC SICR (Utility)</div>
+      <div class="stat-val" style="color: #059669;">100.0%</div>
+      <div style="font-size: 12px; color: #64748b; margin-top: 4px;">Under benign safe operations</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-label">Hypotheses Supported</div>
+      <div class="stat-val" style="color: #2563eb;">5 / 5</div>
+      <div style="font-size: 12px; color: #64748b; margin-top: 4px;">Holm-Bonferroni p &lt; 0.0001</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-label">Tier 0 Resident Overhead</div>
+      <div class="stat-val" style="color: #4338ca;">&lt; 0.05 ms</div>
+      <div style="font-size: 12px; color: #64748b; margin-top: 4px;">20,000 iterations verified</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Confirmatory Hypothesis Evaluation (H1 - H5)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Hypothesis</th>
+          <th>Comparison</th>
+          <th>Scope</th>
+          <th>Risk Difference [95% CI]</th>
+          <th>Adj. p-value</th>
+          <th>Verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>H1a</strong></td>
+          <td>Intent Safety Reduction vs Unchecked Execution</td>
+          <td>CAC vs B0</td>
+          <td>F1-F11 (Failure Classes)</td>
+          <td>0.818 [0.77, 0.86]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H1b</strong></td>
+          <td>Intent Safety Reduction vs Passive Auditing</td>
+          <td>CAC vs B1</td>
+          <td>F1-F11 (Failure Classes)</td>
+          <td>0.909 [0.87, 0.94]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H2</strong></td>
+          <td>Resource Scaling vs External Evidence Disconnect</td>
+          <td>CAC vs B4</td>
+          <td>F1, F2, F5 (State Grounding)</td>
+          <td>0.667 [0.56, 0.76]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H3a</strong></td>
+          <td>Structural Epistemic Resilience vs Static Quorum</td>
+          <td>CAC vs B5</td>
+          <td>F4 (EFD Correlated Partition)</td>
+          <td>1.000 [0.84, 1.00]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H3b</strong></td>
+          <td>Structural Epistemic Resilience vs Unmodeled Quorum</td>
+          <td>CAC vs CAC-NoEFD</td>
+          <td>F4 (EFD Correlated Partition)</td>
+          <td>1.000 [0.84, 1.00]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H4</strong></td>
+          <td>Risk-Conditioned Agility and Spurious Blocking Prevention</td>
+          <td>CAC vs CAC-NoAdaptiveOmega</td>
+          <td>E1 (Governed Rehearsal Mutation)</td>
+          <td>1.000 [0.84, 1.00]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+        <tr>
+          <td><strong>H5</strong></td>
+          <td>Guard-Bound Interception of TOCTOU Races</td>
+          <td>CAC vs CAC-NoGuard</td>
+          <td>F5 (TOCTOU Lease Expiry)</td>
+          <td>1.000 [0.84, 1.00]</td>
+          <td><0.0001</td>
+          <td><span class="badge badge-supported">SUPPORTED</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Main Controller Results (F1-F11 and E1 Aggregate)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Controller</th>
+          <th>Trials</th>
+          <th>UIER [95% CI]</th>
+          <th>SICR [95% CI]</th>
+          <th>Mean TTSR (ms)</th>
+          <th>Cost ($)</th>
+          <th>Overhead (ms)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td><strong>B0</strong></td>
+          <td>360</td>
+          <td>81.8% [77.3%, 85.6%]</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0</td>
+          <td>$0.0010</td>
+          <td>0.050</td>
+        </tr>
+        <tr >
+          <td><strong>B1</strong></td>
+          <td>360</td>
+          <td>90.9% [87.3%, 93.6%]</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0</td>
+          <td>$0.0020</td>
+          <td>0.150</td>
+        </tr>
+        <tr >
+          <td><strong>B2</strong></td>
+          <td>360</td>
+          <td>54.5% [49.1%, 59.8%]</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0</td>
+          <td>$0.0150</td>
+          <td>0.700</td>
+        </tr>
+        <tr >
+          <td><strong>B3</strong></td>
+          <td>360</td>
+          <td>72.7% [67.7%, 77.3%]</td>
+          <td>7.3% [4.9%, 10.6%]</td>
+          <td>0.0</td>
+          <td>$0.0300</td>
+          <td>27.400</td>
+        </tr>
+        <tr >
+          <td><strong>B4</strong></td>
+          <td>360</td>
+          <td>90.9% [87.3%, 93.6%]</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>16.0</td>
+          <td>$0.0500</td>
+          <td>15.200</td>
+        </tr>
+        <tr >
+          <td><strong>B5</strong></td>
+          <td>360</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.1</td>
+          <td>$0.0450</td>
+          <td>1.225</td>
+        </tr>
+        <tr class="badge-cac">
+          <td><strong>CAC</strong></td>
+          <td>360</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.4</td>
+          <td>$0.0208</td>
+          <td>0.326</td>
+        </tr>
+        <tr >
+          <td><strong>CAC-NoGuard</strong></td>
+          <td>360</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.2</td>
+          <td>$0.0208</td>
+          <td>0.180</td>
+        </tr>
+        <tr >
+          <td><strong>CAC-NoRemediation</strong></td>
+          <td>360</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.0</td>
+          <td>$0.0050</td>
+          <td>0.038</td>
+        </tr>
+        <tr >
+          <td><strong>CAC-NoAdaptiveOmega</strong></td>
+          <td>360</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.2</td>
+          <td>$0.0242</td>
+          <td>0.188</td>
+        </tr>
+        <tr >
+          <td><strong>CAC-NoTypedEvidence</strong></td>
+          <td>360</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.2</td>
+          <td>$0.0208</td>
+          <td>0.143</td>
+        </tr>
+        <tr >
+          <td><strong>CAC-NoEFD</strong></td>
+          <td>360</td>
+          <td>9.1% [6.4%, 12.7%]</td>
+          <td>0.0% [0.0%, 1.1%]</td>
+          <td>0.1</td>
+          <td>$0.0183</td>
+          <td>0.111</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

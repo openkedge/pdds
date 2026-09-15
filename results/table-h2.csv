@@ -1,0 +1,2 @@
+Hypothesis,Comparison,Scope,N,n01,n10,RiskDifference,RD_Lower,RD_Upper,RelativeRisk,RR_Lower,RR_Upper,OddsRatio,OR_Lower,OR_Upper,Chi2,Exact_p,Adj_p,Verdict
+H2,"CAC vs B4","F1, F2, F5 (State Grounding)",90,60,0,0.6667,0.5563,0.7555,3,2.2399,4.018,120,7.4199,1940.729,58.0167,1.734723475976807e-18,0,SUPPORTED

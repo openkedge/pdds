@@ -1,0 +1,5 @@
+Controller,Scenario,GuardEvaluatedAtGateway,AdmissionGranted,UnsafeExecutionOccurred,UIER
+CAC,F5,YES,true,false,0
+CAC-NoGuard,F5,NO,true,true,1
+B0,F5,NO,false,false,0
+B2,F5,NO,false,false,0

@@ -1,0 +1,18 @@
+{
+  "name": "@cac/adapter-postgres",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cac/core": "workspace:*",
+    "@cac/evidence": "workspace:*",
+    "@cac/gateway": "workspace:*",
+    "@cac/schemas": "workspace:*"
+  }
+}

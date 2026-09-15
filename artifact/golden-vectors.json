@@ -1,0 +1,39 @@
+{
+  "contractVersion": "0.4.0",
+  "generatedAt": "2026-09-12T17:00:00.000Z",
+  "vectors": {
+    "canonicalJson": {
+      "input": {
+        "z": 1,
+        "a": "hello",
+        "nested": {
+          "d": true,
+          "b": [3, 2, 1]
+        }
+      },
+      "expectedSerialized": "{\"a\":\"hello\",\"nested\":{\"b\":[3,2,1],\"d\":true},\"z\":1}",
+      "sha256": "c6db6bde79ba72615621b7abb7ceca3a44083c10db3406a87be7cc257fb8a651"
+    },
+    "efdCut": {
+      "scenario": "F4-correlated-control-plane",
+      "nodes": ["node-01", "node-02", "node-03"],
+      "exposureMap": {
+        "node-01": ["fault-domain-etcd-primary", "fault-domain-switch-rack1"],
+        "node-02": ["fault-domain-etcd-primary", "fault-domain-switch-rack2"],
+        "node-03": ["fault-domain-etcd-primary", "fault-domain-switch-rack3"]
+      },
+      "cutSize": 1,
+      "minimumCutFaultDomain": "fault-domain-etcd-primary",
+      "kappaE": 0.3333333333333333,
+      "nominalQuorumFraction": 1.0,
+      "quorumThreshold": 0.6666666666666666,
+      "admissionOutcome": "REJECT_INSUFFICIENT_EPISTEMIC_DIVERSITY"
+    },
+    "envelopeTemplate": {
+      "templateId": "postgres.failover.controlled.v1",
+      "version": "1.0.0",
+      "targetAction": "FailoverDatabase",
+      "expectedDigestPrefix": "tmpl-postgres-failover"
+    }
+  }
+}

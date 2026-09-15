@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering\small
+\caption{Complete local path, in milliseconds: range of per-process medians and p99s over three fresh processes, each with 1,000 measured samples per workload. Includes file-backed guard reads and persistent nonce consumption; target execution is an in-process callback.}
+\label{tab:repaired-overhead}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Obligations/receipts & Median range & p99 range \\
+\midrule
+1/1 & 4.65--5.69 & 10.28--37.37 \\
+4/4 & 5.89--9.66 & 14.46--22.48 \\
+8/8 & 24.91--26.86 & 41.41--58.39 \\
+\bottomrule
+\end{tabular}
+\end{table}

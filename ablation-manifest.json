@@ -1,0 +1,47 @@
+{
+  "contractVersion": "cac-study-v1",
+  "generatedAt": "2026-09-13T08:15:00.000Z",
+  "baseSystem": "CAC Reference Controller (Full System)",
+  "ablations": [
+    {
+      "ablationId": "CAC-NoAdaptiveOmega",
+      "mechanismDisabled": "Risk-Conditioned Obligation Synthesis (Omega_Pi)",
+      "implementationDelta": "In workloop/ranking and policy mapping, bypasses R_action risk tiers (Tier 0-3) and statically imposes heavy Tier 3 obligations on all actions including benign reads.",
+      "targetScenario": "E1 (Over-Admission Drag)",
+      "evaluatedHypothesis": "H4",
+      "isolationFidelity": "High: changes only obligation resolution mapping, preserves all other workloop components."
+    },
+    {
+      "ablationId": "CAC-NoGuard",
+      "mechanismDisabled": "Gateway-Level Single-Use Runtime Guards",
+      "implementationDelta": "In gateway/dispatch.ts, passes skipGuards: true, omitting live validation of certificate.guard_set at physical invocation time.",
+      "targetScenario": "F5 (Stale-Admission State Drift / TOCTOU)",
+      "evaluatedHypothesis": "H5",
+      "isolationFidelity": "High: full admission workloop runs normally and issues certificate; only gateway dispatch guard check is bypassed."
+    },
+    {
+      "ablationId": "CAC-NoEFD",
+      "mechanismDisabled": "Structural Epistemic Fault Domain Cut (kappa_E)",
+      "implementationDelta": "In evidence/efd.ts, computes nominal witness count |Q| >= k while skipping structural minimum cut analysis over the ExposureMap.",
+      "targetScenario": "F4 (Correlated Verifier Consensus)",
+      "evaluatedHypothesis": "H3",
+      "isolationFidelity": "High: multi-witness quorum checks remain active, isolating the contribution of structural diversity modeling."
+    },
+    {
+      "ablationId": "CAC-NoRemediation",
+      "mechanismDisabled": "Epistemic Work Loop DEFER Remediation",
+      "implementationDelta": "In workloop/controller.ts, missing or stale evidence transitions directly to terminal DENY without generating RemediationContracts or allowing retry.",
+      "targetScenario": "F3, F6, F8, E1",
+      "evaluatedHypothesis": "Remediation Utility Benefit",
+      "isolationFidelity": "High: initial evaluation is unchanged; only multi-turn deferred remediation guidance is disabled."
+    },
+    {
+      "ablationId": "CAC-UntypedEvidence",
+      "mechanismDisabled": "Typed Evidence Eligibility (LocallyEligible_Pi)",
+      "implementationDelta": "In evidence/eligibility.ts, treats evidence claims as unconstrained payloads, omitting schema validation, provenance class matching, and freshness bounds.",
+      "targetScenario": "F3 (False Assurance), F11 (Assurance Gaming)",
+      "evaluatedHypothesis": "Typed Evidence Assurance Value",
+      "isolationFidelity": "High: workloop still collects receipts, but without semantic typing enforcement."
+    }
+  ]
+}

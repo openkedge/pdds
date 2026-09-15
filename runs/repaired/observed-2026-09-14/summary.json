@@ -1,0 +1,863 @@
+[
+  {
+    "controller": "AuthOnly",
+    "trials": 390,
+    "unsafeEffects": 180,
+    "completed": 180,
+    "attempts": 390,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0.46153846153846156,
+      "sicr": 0.46153846153846156,
+      "uer": 0.46153846153846156,
+      "fbr": 0,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.02520083076923123,
+      "avgOverheadMs": 0.02470405641025137
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  },
+  {
+    "controller": "LivePolicy",
+    "trials": 390,
+    "unsafeEffects": 30,
+    "completed": 120,
+    "attempts": 180,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0.07692307692307693,
+      "sicr": 0.3076923076923077,
+      "uer": 0.16666666666666666,
+      "fbr": 0.2,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.1288498025641002,
+      "avgOverheadMs": 0.1003445384615393
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      }
+    ]
+  },
+  {
+    "controller": "CAC",
+    "trials": 390,
+    "unsafeEffects": 0,
+    "completed": 120,
+    "attempts": 150,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0,
+      "sicr": 0.3076923076923077,
+      "uer": 0,
+      "fbr": 0.2,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.43548131538461465,
+      "avgOverheadMs": 0.4259382794871725
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 180
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 270
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  },
+  {
+    "controller": "CAC-NoGuard",
+    "trials": 390,
+    "unsafeEffects": 30,
+    "completed": 120,
+    "attempts": 180,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0.07692307692307693,
+      "sicr": 0.3076923076923077,
+      "uer": 0.16666666666666666,
+      "fbr": 0.2,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.39988408974359163,
+      "avgOverheadMs": 0.3887772333333292
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 180
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 270
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  },
+  {
+    "controller": "CAC-NoRemediation",
+    "trials": 390,
+    "unsafeEffects": 0,
+    "completed": 90,
+    "attempts": 120,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0,
+      "sicr": 0.23076923076923078,
+      "uer": 0,
+      "fbr": 0.4,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.22760287692307435,
+      "avgOverheadMs": 0.22752169230768876
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  },
+  {
+    "controller": "CAC-NoTypedEvidence",
+    "trials": 390,
+    "unsafeEffects": 30,
+    "completed": 120,
+    "attempts": 180,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0.07692307692307693,
+      "sicr": 0.3076923076923077,
+      "uer": 0.16666666666666666,
+      "fbr": 0.2,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.3774014846153773,
+      "avgOverheadMs": 0.3722177153846137
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 270
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  },
+  {
+    "controller": "CAC-NoEFD",
+    "trials": 390,
+    "unsafeEffects": 30,
+    "completed": 120,
+    "attempts": 180,
+    "metrics": {
+      "totalTrials": 390,
+      "uier": 0.07692307692307693,
+      "sicr": 0.3076923076923077,
+      "uer": 0.16666666666666666,
+      "fbr": 0.2,
+      "avgCostUsd": 0,
+      "avgTtsrMs": 0.31900418974358535,
+      "avgOverheadMs": 0.31157818974358825
+    },
+    "byCase": [
+      {
+        "case": "healthy",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "underprepared",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 90
+      },
+      {
+        "case": "excess-lag",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "offline",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "dispatch-drift",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "revoked",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "wrong-class",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 180
+      },
+      {
+        "case": "unavailable",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 270
+      },
+      {
+        "case": "rollback-invalid",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 0,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "benign-failure",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "ambiguous-commit",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "correlated-witnesses",
+        "trials": 30,
+        "completed": 0,
+        "unsafe": 30,
+        "attempted": 30,
+        "telemetryCalls": 0
+      },
+      {
+        "case": "independent-witnesses",
+        "trials": 30,
+        "completed": 30,
+        "unsafe": 0,
+        "attempted": 30,
+        "telemetryCalls": 0
+      }
+    ]
+  }
+]

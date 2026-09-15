@@ -1,0 +1,42 @@
+{
+  "batchId": "batch-cac-v0.4-study",
+  "experimentId": "cac-v0.4-confirmatory-study",
+  "status": "IMMUTABLE",
+  "completedAt": "2026-09-13T15:12:02.454Z",
+  "contractDigest": "4cd89808c47313226b2fd3aaae87277146f58d960428c4b9fab61a5e26d7581d",
+  "totalTrials": 1102,
+  "scenariosTested": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "E1"
+  ],
+  "controllersTested": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "CAC",
+    "CAC-NoGuard",
+    "CAC-NoRemediation",
+    "CAC-NoAdaptiveOmega",
+    "CAC-NoTypedEvidence",
+    "CAC-NoEFD"
+  ],
+  "seedRange": [
+    1,
+    5
+  ],
+  "rawTrialsFile": "raw-trials.jsonl",
+  "batchSha256": "d7937f81d1bca75f8841b94fe336d3a150c955f1d3cd00d615f0765d30cc7f0a"
+}

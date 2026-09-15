@@ -1,0 +1,52 @@
+{
+  "traceId": "trace-f4-efd-partition-sample",
+  "scenario": "F4-correlated-control-plane-partition",
+  "domain": "kubernetes",
+  "intent": {
+    "goal": "Drain primary worker node worker-01",
+    "action": "DrainNode",
+    "scope": ["k8s/cluster-us-east-1"],
+    "constraints": {
+      "minAvailablePods": 2
+    }
+  },
+  "controller": "CAC",
+  "workloopSteps": [
+    {
+      "step": 1,
+      "name": "Risk Classification",
+      "riskTier": "Tier 3",
+      "rationale": "High-risk node drain on multi-zone Kubernetes cluster."
+    },
+    {
+      "step": 2,
+      "name": "Obligation Resolution",
+      "obligations": [
+        "witness:quorum_membership",
+        "witness:pod_disruption_budget",
+        "efd:structural_diversity_threshold"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Epistemic Analysis (EFD Cut)",
+      "collectedWitnesses": [
+        { "node": "etcd-peer-1", "domains": ["fault-domain-etcd-primary", "rack-1"] },
+        { "node": "etcd-peer-2", "domains": ["fault-domain-etcd-primary", "rack-2"] },
+        { "node": "etcd-peer-3", "domains": ["fault-domain-etcd-primary", "rack-3"] }
+      ],
+      "nominalQuorumFraction": 1.0,
+      "structuralCutSize": 1,
+      "epistemicDiversityFactorKappaE": 0.3333333333333333,
+      "quorumThresholdTau": 0.6666666666666666,
+      "entailmentStatus": "FAILED_EPISTEMIC_CONCENTRATION"
+    },
+    {
+      "step": 4,
+      "name": "Admission Decision",
+      "verdict": "REJECT",
+      "reason": "Correlated epistemic fault domain overlap exceeds acceptable threshold (kappa_E < tau)"
+    }
+  ],
+  "finalVerdict": "ADMISSION_DENIED_UNSAFE_EXECUTION_PREVENTED"
+}

@@ -1,0 +1,13 @@
+{
+  "sourceRevision": "b7b81e64f37e0f93055928db616da09b860e7273",
+  "completedAt": "2026-09-14T07:57:54.519Z",
+  "trials": 2730,
+  "hashes": {
+    "protocol.json": "29b7bc1e51fcd9b9740ceedd449641321520baa78262bb50fb9b525921c6aa6e",
+    "trials.jsonl": "1411cf031eddf90be9e565d4f4f976ae57135a7b371763118dca2e999f97989f",
+    "summary.json": "55ced1015c9f02e2a1c41e1c87db6f2623b03ac8611de23705ea53824cf22ca4",
+    "microbench-1.json": "7e39dafb2fa9ee8431acdde0a4f83464b6951cfc57c206f0ade8a9d71874e501",
+    "microbench-2.json": "fb0140e1e4ffd66c8009c5b3e9d610579238125e025473efbe82f0c61c131d31",
+    "microbench-3.json": "cda1880a072a9ae3a74a9ad293a9ef81f72b0b0733429e9553d63364c2f1463f"
+  }
+}

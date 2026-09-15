@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<rect width="800" height="550" fill="#ffffff"/>
+<text x="80" y="32" font-size="18" font-weight="700" fill="#111827">Safety-Utility Frontier: Unsafe Execution vs Safe Completion</text>
+<text x="80" y="50" font-size="12" fill="#6b7280">Evaluation across F1-F11 failure scenarios and E1 safe baseline (N=30 trials/condition)</text>
+<line x1="80" y1="60" x2="80" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="80" y="500" font-size="11" fill="#4b5563" text-anchor="middle">0%</text>
+<line x1="188" y1="60" x2="188" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="188" y="500" font-size="11" fill="#4b5563" text-anchor="middle">20%</text>
+<line x1="296" y1="60" x2="296" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="296" y="500" font-size="11" fill="#4b5563" text-anchor="middle">40%</text>
+<line x1="404.00000000000006" y1="60" x2="404.00000000000006" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="404.00000000000006" y="500" font-size="11" fill="#4b5563" text-anchor="middle">60%</text>
+<line x1="512" y1="60" x2="512" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="512" y="500" font-size="11" fill="#4b5563" text-anchor="middle">80%</text>
+<line x1="620" y1="60" x2="620" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="620" y="500" font-size="11" fill="#4b5563" text-anchor="middle">100%</text>
+<line x1="80" y1="480" x2="620" y2="480" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="484" font-size="11" fill="#4b5563" text-anchor="end">0%</text>
+<line x1="80" y1="396" x2="620" y2="396" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="400" font-size="11" fill="#4b5563" text-anchor="end">20%</text>
+<line x1="80" y1="312" x2="620" y2="312" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="316" font-size="11" fill="#4b5563" text-anchor="end">40%</text>
+<line x1="80" y1="227.99999999999997" x2="620" y2="227.99999999999997" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="231.99999999999997" font-size="11" fill="#4b5563" text-anchor="end">60%</text>
+<line x1="80" y1="144" x2="620" y2="144" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="148" font-size="11" fill="#4b5563" text-anchor="end">80%</text>
+<line x1="80" y1="60" x2="620" y2="60" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+<text x="68" y="64" font-size="11" fill="#4b5563" text-anchor="end">100%</text>
+<line x1="80" y1="480" x2="620" y2="480" stroke="#111827" stroke-width="1.5"/>
+<line x1="80" y1="60" x2="80" y2="480" stroke="#111827" stroke-width="1.5"/>
+<text x="350" y="530" font-size="13" font-weight="600" fill="#111827" text-anchor="middle">Unsafe Intent Execution Rate (UIER) [Lower is Safer &rarr; Ideal = 0%]</text>
+<text transform="rotate(-90)" x="-270" y="25" font-size="13" font-weight="600" fill="#111827" text-anchor="middle">Safe Intent Completion Rate (SICR) [Higher is Better &rarr; Ideal = 100%]</text>
+<rect x="80" y="60" width="81" height="84" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-dasharray="4,4"/>
+<text x="88" y="80" font-size="10" font-weight="700" fill="#047857">OPTIMAL ZONE (CAC)</text>
+<circle cx="521.828" cy="441.822" r="7" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<text x="529.828" y="437.822" font-size="11" font-weight="600" fill="#dc2626">B0</text>
+<circle cx="570.914" cy="441.822" r="7" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<text x="578.914" y="437.822" font-size="11" font-weight="600" fill="#dc2626">B1</text>
+<circle cx="374.57" cy="441.822" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="382.57" y="437.822" font-size="11" font-weight="600" fill="#2563eb">B2</text>
+<circle cx="472.74199999999996" cy="449.466" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="480.74199999999996" y="445.466" font-size="11" font-weight="600" fill="#2563eb">B3</text>
+<circle cx="570.914" cy="441.822" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="578.914" y="437.822" font-size="11" font-weight="600" fill="#2563eb">B4</text>
+<circle cx="129.086" cy="480" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="137.086" y="476" font-size="11" font-weight="600" fill="#2563eb">B5</text>
+<circle cx="80" cy="480" r="9" fill="#059669" stroke="#ffffff" stroke-width="1.5"/>
+<text x="88" y="476" font-size="11" font-weight="600" fill="#059669">CAC</text>
+<circle cx="129.086" cy="480" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="137.086" y="476" font-size="11" font-weight="600" fill="#d97706">CAC-NoGuard</text>
+<circle cx="80" cy="480" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="88" y="476" font-size="11" font-weight="600" fill="#d97706">CAC-NoRemediation</text>
+<circle cx="80" cy="480" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="88" y="476" font-size="11" font-weight="600" fill="#d97706">CAC-NoAdaptiveOmega</text>
+<circle cx="129.086" cy="480" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="137.086" y="476" font-size="11" font-weight="600" fill="#d97706">CAC-NoTypedEvidence</text>
+<circle cx="129.086" cy="480" r="6" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="137.086" y="476" font-size="11" font-weight="600" fill="#d97706">CAC-NoEFD</text>
+<rect x="630" y="65" width="160" height="150" fill="#f9fafb" stroke="#e5e7eb" rx="6"/>
+<text x="640" y="80" font-size="12" font-weight="700" fill="#111827">Controller Key</text>
+<circle cx="648" cy="105" r="6" fill="#059669"/>
+<text x="662" y="109" font-size="11" fill="#111827">CAC (Reference)</text>
+<circle cx="648" cy="130" r="5" fill="#dc2626"/>
+<text x="662" y="134" font-size="11" fill="#111827">B0, B1 (Unsafe)</text>
+<circle cx="648" cy="155" r="5" fill="#2563eb"/>
+<text x="662" y="159" font-size="11" fill="#111827">B2-B5 (Baselines)</text>
+<circle cx="648" cy="180" r="5" fill="#d97706"/>
+<text x="662" y="184" font-size="11" fill="#111827">CAC Ablations</text>
+</svg>

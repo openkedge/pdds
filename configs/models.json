@@ -1,0 +1,51 @@
+{
+  "studyVersion": "0.4.0",
+  "freezeDate": "2026-09-12",
+  "models": [
+    {
+      "modelKey": "frontier-primary",
+      "category": "FRONTIER_HOSTED",
+      "provider": "anthropic",
+      "modelId": "claude-3-5-sonnet-20241022",
+      "apiRevision": "2023-06-01",
+      "deploymentId": "aws-bedrock-us-east-1",
+      "temperature": 0.0,
+      "topP": 1.0,
+      "maxOutputTokens": 4096,
+      "reasoningEffort": "none",
+      "toolUseMode": "native-function-calling",
+      "promptDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executionWindow": "2026-09-12T10:00:00Z to 2026-09-12T18:00:00Z"
+    },
+    {
+      "modelKey": "frontier-reasoning",
+      "category": "STRONG_HOSTED_REASONING",
+      "provider": "openai",
+      "modelId": "o1-preview-2024-09-12",
+      "apiRevision": "v1",
+      "deploymentId": "openai-direct",
+      "temperature": 1.0,
+      "topP": 1.0,
+      "maxOutputTokens": 16384,
+      "reasoningEffort": "high",
+      "toolUseMode": "two-phase-reason-act",
+      "promptDigest": "a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0",
+      "executionWindow": "2026-09-12T10:00:00Z to 2026-09-12T18:00:00Z"
+    },
+    {
+      "modelKey": "open-weight-reference",
+      "category": "STRONG_OPEN_WEIGHT",
+      "provider": "vllm-local",
+      "modelId": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "apiRevision": "vllm-0.6.4",
+      "deploymentId": "local-h100-sxm5",
+      "temperature": 0.0,
+      "topP": 1.0,
+      "maxOutputTokens": 8192,
+      "reasoningEffort": "native-cot",
+      "toolUseMode": "json-constrained-schema",
+      "promptDigest": "f0e1d2c3b4a5968778695a4b3c2d1e0ff0e1d2c3b4a5968778695a4b3c2d1e0f",
+      "executionWindow": "deterministic-snapshot"
+    }
+  ]
+}

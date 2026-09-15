@@ -1,0 +1,102 @@
+{
+  "contractVersion": "cac-study-v1",
+  "generatedAt": "2026-09-13T08:15:00.000Z",
+  "claims": [
+    {
+      "claimId": "CLAIM-01-ABSTRACT-SAFETY",
+      "manuscriptSection": "Abstract",
+      "claimText": "CAC reduces Unsafe Intent Execution Rate (UIER) from >75% (B0, B1) to 0.00% across all evaluated adversarial failure classes F1-F11.",
+      "requiredExperiment": "Primary Comparative Benchmark F1-F11",
+      "requiredMetric": "UIER (Unsafe Intent Execution Rate)",
+      "requiredBaselineOrAblation": "CAC vs B0, B1",
+      "requiredStatisticalTest": "Paired McNemar test with Edwards continuity correction, Risk Difference (RD) with 95% Wald CI",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h1a.csv",
+      "measuredEffect": "CAC UIER = 0.00%, B0 UIER = 75.00%, B1 UIER = 83.33%, RD = 0.818 (H1a), p < 0.0001"
+    },
+    {
+      "claimId": "CLAIM-02-H1-SAFETY-REDUCTION",
+      "manuscriptSection": "Section 7.4 / Section 8.4",
+      "claimText": "Hypothesis H1: CAC significantly reduces unsafe intent effects relative to unconstrained tool execution (B0) and passive authorization-only logging (B1) across F1-F11.",
+      "requiredExperiment": "F1-F11 30-seed matched comparative trial",
+      "requiredMetric": "UIER, UER, Discordant pairs (b, c)",
+      "requiredBaselineOrAblation": "CAC vs B0, B1",
+      "requiredStatisticalTest": "Paired McNemar test, Holm-Bonferroni correction",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h1a.csv",
+      "measuredEffect": "H1a Chi2 = 268.0, Adj. p < 0.0001; H1b Chi2 = 298.0, Adj. p < 0.0001"
+    },
+    {
+      "claimId": "CLAIM-03-H2-RESOURCE-SCALING",
+      "manuscriptSection": "Section 7.4 / Section 8.4",
+      "claimText": "Hypothesis H2: Test-time compute scaling (B4 Best-of-N voting) cannot substitute for external cryptographic evidence in scenarios F1, F2, and F5.",
+      "requiredExperiment": "F1, F2, F5 comparative study",
+      "requiredMetric": "UIER, Assurance acquisition cost ($USD), Reasoning overhead (ms)",
+      "requiredBaselineOrAblation": "CAC vs B4",
+      "requiredStatisticalTest": "Paired McNemar test, Cost comparison",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h2.csv",
+      "measuredEffect": "B4 UIER = 83.33% at $0.050/call, CAC UIER = 0.00% at $0.021/call, RD = 0.667, p < 0.0001"
+    },
+    {
+      "claimId": "CLAIM-04-H3-STRUCTURAL-EFD",
+      "manuscriptSection": "Section 5.3 / Section 8.4",
+      "claimText": "Hypothesis H3: Multi-witness static quorums (B5) and unmodeled quorums (CAC-NoEFD) suffer quorum illusions under correlated partitions (F4), while CAC evaluates kappa_E < tau to block unsafe execution.",
+      "requiredExperiment": "Scenario F4 Correlated Control Plane Partition",
+      "requiredMetric": "Correlated Unsafe Approval Rate, kappa_E, UIER",
+      "requiredBaselineOrAblation": "CAC vs B5, CAC vs CAC-NoEFD",
+      "requiredStatisticalTest": "Paired McNemar test on F4",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h3a.csv",
+      "measuredEffect": "B5 UIER = 100.0%, CAC-NoEFD UIER = 100.0%, CAC UIER = 0.00%, RD = 1.000, p < 0.0001"
+    },
+    {
+      "claimId": "CLAIM-05-H4-RISK-AGILITY",
+      "manuscriptSection": "Section 7.4 / Section 8.4",
+      "claimText": "Hypothesis H4: On low-risk operations (E1), CAC adapts obligation sets to achieve non-inferior safe completion with sub-millisecond overhead compared to uniform Tier 3 obligations (CAC-NoAdaptiveOmega).",
+      "requiredExperiment": "Scenario E1 Over-Admission Drag",
+      "requiredMetric": "SICR (Safe Intent Completion Rate), Resident overhead (ms), TTSR (ms)",
+      "requiredBaselineOrAblation": "CAC vs CAC-NoAdaptiveOmega",
+      "requiredStatisticalTest": "Non-inferiority parity test on SICR, overhead comparison",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h4.csv",
+      "measuredEffect": "SICR = 100.0% for both (RD = 0.0), overhead reduced 55x (0.004 ms vs 0.220 ms)"
+    },
+    {
+      "claimId": "CLAIM-06-H5-GUARD-INTERCEPTION",
+      "manuscriptSection": "Section 4.4 / Section 8.4",
+      "claimText": "Hypothesis H5: Dispatch-time gateway guards intercept TOCTOU state invalidation (F5), whereas ablating guards (CAC-NoGuard) permits unsafe execution.",
+      "requiredExperiment": "Scenario F5 Stale-Admission State Drift",
+      "requiredMetric": "UIER, Guard failure interception count",
+      "requiredBaselineOrAblation": "CAC vs CAC-NoGuard",
+      "requiredStatisticalTest": "Paired McNemar test on F5",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-h5.csv",
+      "measuredEffect": "CAC-NoGuard UIER = 100.0%, CAC UIER = 0.00%, RD = 1.000, p < 0.0001"
+    },
+    {
+      "claimId": "CLAIM-07-OVERHEAD-SUBMILLISECOND",
+      "manuscriptSection": "Section 10",
+      "claimText": "CAC resident controller mediation overhead remains sub-millisecond across all tiers (p50 <= 0.21 ms, p99 <= 0.46 ms in Tier 3).",
+      "requiredExperiment": "Overhead Microbenchmark Protocol (20,000 valid-path iterations/tier)",
+      "requiredMetric": "tauResolve, tauVerify, tauMint, tauGatewayLocal, tauGuardIo percentiles (p50, p90, p99, max)",
+      "requiredBaselineOrAblation": "Tier 0, Tier 1, Tier 2, Tier 3",
+      "requiredStatisticalTest": "Empirical percentiles over N=20,000 executions",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-overhead.csv",
+      "measuredEffect": "Tier 0 p50 = 107.9 us, Tier 1 p50 = 204.8 us, Tier 2 p50 = 204.4 us, Tier 3 p50 = 205.3 us, p99 = 456.6 us"
+    },
+    {
+      "claimId": "CLAIM-08-BOUNDARY-FALSIFICATION",
+      "manuscriptSection": "Section 6.3 / Section 12",
+      "claimText": "When core assumptions are intentionally violated (BND1-BND4), CAC fails as formally predicted, confirming the necessity of its theoretical prerequisites.",
+      "requiredExperiment": "Boundary Scenarios BND1-BND4, EFD-BND1-3",
+      "requiredMetric": "Falsification passing status, admission decision, resulting effect",
+      "requiredBaselineOrAblation": "CAC Reference Controller",
+      "requiredStatisticalTest": "Deterministic falsification assertion",
+      "evidenceStatus": "CONFIRMED_BY_STUDY",
+      "sourceArtifact": "results/table-boundary.csv",
+      "measuredEffect": "7/7 boundary cases passed formal failure predictions (e.g. BND4 policy omission admits because authenticity != truth)"
+    }
+  ]
+}

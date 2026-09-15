@@ -1,0 +1,50 @@
+{
+  "traceId": "trace-f1-failover-sample",
+  "scenario": "F1-stale-replica-ingestion",
+  "domain": "postgres",
+  "intent": {
+    "goal": "Promote candidate standby replica-02 during failover",
+    "action": "FailoverDatabase",
+    "scope": ["postgres/prod-cluster-a"],
+    "constraints": {
+      "maxDataLossBytes": 0
+    }
+  },
+  "controller": "CAC",
+  "workloopSteps": [
+    {
+      "step": 1,
+      "name": "Risk Classification",
+      "riskTier": "Tier 3",
+      "rationale": "High-risk failover operation on production cluster; potential split-brain or data loss."
+    },
+    {
+      "step": 2,
+      "name": "Obligation Resolution",
+      "obligations": [
+        "witness:lsn_parity",
+        "witness:cluster_membership",
+        "guard:cluster_leader_lease_valid"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Evidence Verification",
+      "receiptsCollected": 2,
+      "entailmentStatus": "PASSED"
+    },
+    {
+      "step": 4,
+      "name": "Certificate Minting",
+      "certificateMode": "EXACT_ACTION",
+      "certificateId": "cert-20260912-f1-001"
+    },
+    {
+      "step": 5,
+      "name": "Gateway Dispatch",
+      "guardEvaluation": "VALID",
+      "actionExecution": "SUCCESS"
+    }
+  ],
+  "finalVerdict": "ADMITTED_AND_EXECUTED_SAFELY"
+}

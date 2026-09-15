@@ -1,0 +1,5 @@
+Controller,NominalQuorum,KappaE,ResilienceRatio,UIER,SICR
+B0,0/0,0,0.000,1,0
+B5,3/3,1,1.000,1,0
+CAC-NoEFD,3/3,1,1.000,1,0
+CAC,3/3,1,0.333,0,0

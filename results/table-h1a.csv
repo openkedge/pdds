@@ -1,0 +1,2 @@
+Hypothesis,Comparison,Scope,N,n01,n10,RiskDifference,RD_Lower,RD_Upper,RelativeRisk,RR_Lower,RR_Upper,OddsRatio,OR_Lower,OR_Upper,Chi2,Exact_p,Adj_p,Verdict
+H1a,"CAC vs B0","F1-F11 (Failure Classes)",330,270,0,0.8182,0.7715,0.8561,5.5,4.3749,6.9145,540,33.69,8655.3807,268.0037,1.0542197943230523e-81,0,SUPPORTED
